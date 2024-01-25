@@ -1,0 +1,470 @@
+{
+    "spawnWeight": 1,
+    "name": "Player",
+	"characterTypes": [   
+        "SurvivorM_Mirek",
+        "SurvivorM_Boris",
+        "SurvivorM_Cyril",
+        "SurvivorM_Denis",
+        "SurvivorM_Elias",
+        "SurvivorM_Francis",
+        "SurvivorM_Guo",
+        "SurvivorM_Hassan",
+        "SurvivorM_Indar",
+        "SurvivorM_Jose",
+        "SurvivorM_Kaito",
+        "SurvivorM_Lewis",
+        "SurvivorM_Manua",
+        "SurvivorM_Niki",
+        "SurvivorM_Oliver",
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn",
+        "SurvivorM_Rolf",
+        "SurvivorM_Seth",
+        "SurvivorM_Taiki",
+        "SurvivorF_Eva",
+        "SurvivorF_Frida",
+        "SurvivorF_Gabi",
+        "SurvivorF_Helga",
+        "SurvivorF_Irena",
+        "SurvivorF_Judy",
+        "SurvivorF_Keiko",
+        "SurvivorF_Linda",
+        "SurvivorF_Maria",
+        "SurvivorF_Naomi",
+        "SurvivorF_Baty"
+	],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Hands",
+            "discreteItemSets": [
+                {
+                    "itemType": "M4A1",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 4,
+					"complexChildrenTypes": [
+						{
+							"itemType": "M4_OEBttstck",
+							"attributes": {
+                                "healthMin": 0.98,
+                                "healthMax": 0.99,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+						},
+						{
+							"itemType": "M4_PlasticHndgrd",	
+							"attributes": {
+                                "healthMin": 0.98,
+                                "healthMax": 0.99,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+						},
+						{
+							"itemType": "Mag_CMAG_20Rnd",	
+							"attributes": {
+                                "healthMin": 0.98,
+                                "healthMax": 0.99,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+						},
+						{
+							"itemType": "ACOGOptic",	
+							"attributes": {
+                                "healthMin": 0.98,
+                                "healthMax": 0.99,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+						}
+					]
+				}
+            ]
+        },
+		{
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "PressVest_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+				}
+            ]
+        },
+		{
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "TShirt_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TShirt_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TShirt_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TShirt_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TShirt_OrangeWhiteStripes",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TShirt_Red",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TShirt_RedBlackStripes",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TShirt_White",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "TShirt_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "CanvasPantsMidi_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "CanvasPantsMidi_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "CanvasPantsMidi_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "CanvasPantsMidi_Red",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "CanvasPantsMidi_Violet",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1  
+				}
+            ]
+        },
+		{
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "NVGHeadstrap",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "NVGoggles",
+							"attributes": {
+                                "healthMin": 0.98,
+                                "healthMax": 0.99,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+							"simpleChildrenTypes": [
+								"Battery9V"
+							]
+						}
+					]
+				}
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "AthleticShoes_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "AthleticShoes_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "AthleticShoes_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+						"healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "AthleticShoes_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "AthleticShoes_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.98,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+		{
+			"name": "Cargo1",
+			"spawnWeight": 1,
+			"attributes": {
+				"healthMin": 1.0,
+				"healthMax": 1.0,
+				"quantityMin": 1.0,
+				"quantityMax": 1.0
+			},
+			"complexChildrenTypes": [
+				{
+					"itemType": "BandageDressing",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 0
+				},
+				{
+					"itemType": "BandageDressing",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 1
+				},
+				{
+					"itemType": "Honey",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 2
+				},
+				{
+					"itemType": "Mag_CMAG_20Rnd",	
+					"attributes": {
+						"healthMin": 0.98,
+						"healthMax": 0.99,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "Mag_CMAG_20Rnd",	
+					"attributes": {
+						"healthMin": 0.98,
+						"healthMax": 0.99,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "Mag_CMAG_20Rnd",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 0.98,
+						"healthMax": 0.99,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "WaterBottle",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 3
+				}
+			]
+		}
+    ]
+}
